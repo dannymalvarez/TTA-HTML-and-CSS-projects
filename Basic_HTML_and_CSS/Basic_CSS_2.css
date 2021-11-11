@@ -1,0 +1,8 @@
+p {
+    color: purple;
+    background-color: lightgray;
+    font-size: large;
+    text-align: center;
+    text-shadow: 1.5px 1.5px yellow;
+}
+/*I forgot that this was the way to comment code in CSS*/
