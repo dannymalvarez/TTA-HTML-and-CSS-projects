@@ -36,8 +36,9 @@ div.gallery {
   margin: 5px;
   border: 1px solid #ccc;
   float: left;
-  width: 450px;
-    margin-top: 15px;
+width: 400px;
+    height: 275px;
+    margin-top: 10px;
 }
 
 
@@ -51,7 +52,7 @@ div.gallery img{
 }
 
 div.desc {
-    padding: 15px;
+    padding: 10px;
     text-align: center;
 }
 
@@ -59,4 +60,8 @@ header, footer {
     background-color: gainsboro;
     text-align: center;
     font-family: monospace;
+}
+
+footer{
+    padding: 15px;
 }
