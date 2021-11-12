@@ -1,0 +1,138 @@
+<!-- 
+Project minimum requirements 
+1. one page website 
+2. Home page section (heading tag, <p>, etc.)
+3. A section with pictures (<img> tags, etc.)
+4. Contact form (<form> tag, input tag, etc.)
+5. A section with a video(s) (<iframe> tag, src attribute, etc.)
+6. Footer (<footer> tag, etc.)
+7. A <nav> element that utilizes HTML bookmarks to allow the user to jump to various sections on the page
+8. additional elements can be added, but are not required. 
+
+MY PLAN FOR THE SITE
+1. topic/subject matter = Ford Lightning 
+2. plan for page will be the following:
+2a. nav to jump within the page to other content areas, named :Welcome hype video, f150 history, subscribe
+2b. A welcome/landing home section with the new ford lightning intro video as the main focus.
+2c. A handful of pictures ranging through the evolution of vehicles through history. 
+2d. a contact form for us to send email notification for electric truck updates.
+2e. a footer with a number and email to contact if they have any questions. 
+-->
+
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+<title>2021 Ford Lightning</title>
+<meta charset="utf-8">
+</head>
+    <main>
+    <body>
+        <div>
+            <header>
+            <nav>
+                <a href="#home" id="link">Home</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#subscribe">Subscribe</a>
+            </nav>
+                <h1>The next step in electric vehicles is here.</h1>
+                <p>Marrying practicality with innovation since 1903.</p>
+            </header>
+        </div>
+        <!-- HOME -->
+        
+        <div id="home">
+            <div>
+                <div class="bgblue">
+                    <iframe width="1120" height="630" src="https://www.youtube.com/embed/Zxe352yOYyk">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+        
+        <!-- END HOME -->
+        <hr>
+        <!-- Gallery -->
+        
+        <div class="gallery">
+            <a target="_blank" href="https://www.motortrend.com/uploads/sites/5/2021/05/2022-Ford-F-150-Lightning-front-three-quarter-view.jpg?fit=around%7C875:492">
+            <img src="https://www.motortrend.com/uploads/sites/5/2021/05/2022-Ford-F-150-Lightning-front-three-quarter-view.jpg?fit=around%7C875:492" alt="2021 Ford Lightning">
+            </a>
+        <div class="desc">2021 Ford Lightning (Electric F-150)</div>
+        </div>
+        
+        <div class="gallery">
+            <a target="_blank" href="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/2021_Ford_F-150_%28fourteenth_generation%29_front_view_02.png/440px-2021_Ford_F-150_%28fourteenth_generation%29_front_view_02.png">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/2021_Ford_F-150_%28fourteenth_generation%29_front_view_02.png/440px-2021_Ford_F-150_%28fourteenth_generation%29_front_view_02.png">
+            </a>
+        <div class="desc">2021 Ford F-150</div>
+        </div>
+        
+        <div class="gallery">
+            <a target="_blank" href="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/2016_Ford_F-150_Limited_Super_Crew_3.5L%2C_front_6.29.19.jpg/440px-2016_Ford_F-150_Limited_Super_Crew_3.5L%2C_front_6.29.19.jpg">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/2016_Ford_F-150_Limited_Super_Crew_3.5L%2C_front_6.29.19.jpg/440px-2016_Ford_F-150_Limited_Super_Crew_3.5L%2C_front_6.29.19.jpg">
+            </a>
+        <div class="desc">2016 Ford F-150</div>
+        </div>
+        
+        <div class="gallery">
+            <a target="_blank" href="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/2009_Ford_F-150_XLT_SuperCrew.jpg/440px-2009_Ford_F-150_XLT_SuperCrew.jpg">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/2009_Ford_F-150_XLT_SuperCrew.jpg/440px-2009_Ford_F-150_XLT_SuperCrew.jpg">
+            </a>
+        <div class="desc">2009 Ford F-150</div>
+        </div>
+        
+        <div class="gallery">
+            <a target="_blank" href="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Ford_F150_FX4_2004.jpg/440px-Ford_F150_FX4_2004.jpg">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Ford_F150_FX4_2004.jpg/440px-Ford_F150_FX4_2004.jpg">
+            </a>
+        <div class="desc">2009 Ford F-150</div>
+        </div>
+        <!-- 
+Truck images from newest to oldest in order, total of 9 images.
+
+- 2021 lightning - https://www.ford.com/is/image/content/dam/vdm_ford/live/en_us/ford/nameplate/f-150lightning/2022/collections/dm/22_FRD_F15_BEV_53731.tif?croppathe=1_3x2&wid=900&fit=crop&hei=600
+
+- 14th gen - https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/2021_Ford_F-150_%28fourteenth_generation%29_front_view_02.png/440px-2021_Ford_F-150_%28fourteenth_generation%29_front_view_02.png
+
+- 13th gen - https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/2016_Ford_F-150_Limited_Super_Crew_3.5L%2C_front_6.29.19.jpg/440px-2016_Ford_F-150_Limited_Super_Crew_3.5L%2C_front_6.29.19.jpg
+
+- 12th gen - https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/2009_Ford_F-150_XLT_SuperCrew.jpg/440px-2009_Ford_F-150_XLT_SuperCrew.jpg 
+
+- 11th gen - https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Ford_F150_FX4_2004.jpg/440px-Ford_F150_FX4_2004.jpg
+
+**10th gen - https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/%2797-%2798_Ford_F-250_XL_Regular_Cab.JPG/440px-%2797-%2798_Ford_F-250_XL_Regular_Cab.JPG
+
+**9th gen - https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/1993_F-150_with_dual_gas_tanks.jpg/440px-1993_F-150_with_dual_gas_tanks.jpg
+
+**8th gen - https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Ford_F-150_--_09-07-2009.jpg/440px-Ford_F-150_--_09-07-2009.jpg
+
+**7th gen - https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/1986_F-150.jpg/440px-1986_F-150.jpg
+
+
+
+-->
+        <!-- END GALLERY -->
+        
+        <!-- SUBSCRIBE -->
+        
+        <div>
+        
+        </div>
+        
+        <!-- END SUBSCRIBE -->
+        
+</body> 
+        
+        <!-- FOOTER -->
+        
+        <div>
+        
+        </div>
+        
+        <!-- END FOOTER -->
+    </main>
+</html>
