@@ -1,0 +1,8 @@
+total 0
+-rw-r--r--   1 danielalvarez  staff    0 Nov 13 09:54 old_permissions.txt
+drwxr-xr-x   8 danielalvarez  staff  256 Nov 11 08:56 assignment_cat_dog_video_files
+drwxr-xr-x   4 danielalvarez  staff  128 Nov 13 09:42 Starter_files
+drwxr-xr-x   6 danielalvarez  staff  192 Nov 12 10:03 Sally's_website
+drwxr-xr-x   6 danielalvarez  staff  192 Nov 13 08:41 One-Page_Website
+drwxr-xr-x   9 danielalvarez  staff  288 Nov 11 11:06 Basic_Javascript_and_HTML_1
+drwxr-xr-x  12 danielalvarez  staff  384 Nov 11 15:53 Basic_HTML_and_CSS
