@@ -1,189 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
    <head>
+       <title>Basic HTML</title>
        <meta charset="utf-8">
-       <title>Sally's Website</title>
+       <link rel="stylesheet" href="../CSS/photo_style.css ">
+       <link rel="stylesheet" href="shared.css">
     </head>
     <body>
         
         <!-- NAV -->
-        <div>
-            <div>
-                <ul>
-                    <a href="#home" id="link"><li>HOME</li></a>
+        <div class="wrap">
+            <div class="menu-container">
+                <ul class="menu">
+                    <a href="#home"><li>HOME</li></a>
                     <a href="#gallery"><li>GALLERY</li></a>
-                    <a href="#notifications"><li>NOTIFICATIONS</li></a>
+                    <a href="#subscribe"><li>SUBSCRIBE</li></a>
                 </ul>
             </div>
         </div>
         <!-- END NAV -->
-        
+
         <!-- HOME -->
         <div id="home">
-            <div>
-                <div>
-                    <span>Meet Sally Alvarez!</span>
+            <div class="container">
+                <div class="text-center">
+                    <span class="head-main">Sally's Gallery</span>
                 </div>
             </div>
         </div>
         <!-- END HOME -->
-        
+
         <!-- GALLERY -->
-        <section>
-            <div id="gallery">
-                <h1>Gallery</h1>
-                <div>
-                    
-                <!-- PHOTO-CONTAINER 1-->
-                    <div>
-                        <div>
-                            <img src="Images/Thumb/thumbnail_1.jpeg" alt="Sally tongue" width="300">
-                            <div>
-                                <h3>Click to Enlarge</h3>
-                                <p>We have had Sally for a little over a year and we have MANY pictures of her!</p>
-                            </div>    
+        <section id="gallery">
+            <div class="container">
+                <h1>GALLERY</h1>
+                <div class="flex-container">
+
+
+                      <!-- PHOTO CONTAINER 1 -->
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="../Images/Thumb/thumbnail_1.jpeg" alt="Sally first day home">
+                            <div class="photo-overlay">
+                                <h3 class="white-head">Click to Enlarge</h3>
+                                <p>We have several pictures of Sally to share, check them out!</p>
+                            </div>
                         </div>
                     </div>
-                <!-- END PHOTO-CONTAINER 1-->
-                
-                <!-- PHOTO-CONTAINER 2-->
-                    <div>
-                        <div>
-                            <img src="Images/Thumb/thumbnail_2.jpeg" alt="Sally and me" width="300">
-                            <div>
-                                <h3>Click to Enlarge</h3>
-                                <p>We have had Sally for a little over a year and we have MANY pictures of her!</p>
-                            </div>    
+                        <!-- END PHOTO CONTAINER 1 -->
+
+                        <!-- PHOTO CONTAINER 2 -->
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="../Images/Thumb/thumbnail_2.jpeg" alt="Sal & dad">
+                            <div class="photo-overlay">
+                                <h3 class="white-head">Click to Enlarge</h3>
+                                <p>We have several pictures of Sally to share, check them out!</p>
+                            </div>
                         </div>
                     </div>
-                <!-- END PHOTO-CONTAINER 2-->
-                
-                <!-- PHOTO-CONTAINER 3-->
-                    <div>
-                        <div>
-                            <img src="Images/Thumb/thumbnail_3.jpeg" alt="Sally and Steph" width="300">
-                            <div>
-                                <h3>Click to Enlarge</h3>
-                                <p>We have had Sally for a little over a year and we have MANY pictures of her!</p>
-                            </div>    
+                        <!-- END PHOTO CONTAINER 2 -->
+
+                        <!-- PHOTO CONTAINER 3 -->
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="../Images/Thumb/thumbnail_3.jpeg" alt="Sal & mom">
+                            <div class="photo-overlay">
+                                <h3 class="white-head">Click to Enlarge</h3>
+                                <p>We have several pictures of Sally to share, check them out!</p>
+                            </div>
                         </div>
                     </div>
-                <!-- END PHOTO-CONTAINER 3-->
-                    
-                <!-- PHOTO-CONTAINER 4-->
-                    <div>
-                        <div>
-                            <img src="Images/Thumb/thumbnail_4.jpeg" alt="Sally in the Sun" width="300">
-                            <div>
-                                <h3>Click to Enlarge</h3>
-                                <p>We have had Sally for a little over a year and we have MANY pictures of her!</p>
-                            </div>    
+                        <!-- END PHOTO CONTAINER 3 -->
+
+                        <!-- PHOTO CONTAINER 4 -->
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="../Images/Thumb/thumbnail_4.jpeg" alt="Sally in the sun">
+                            <div class="photo-overlay">
+                                <h3 class="white-head">Click to Enlarge</h3>
+                                <p>We have several pictures of Sally to share, check them out!</p>
+                            </div>
                         </div>
                     </div>
-                <!-- END PHOTO-CONTAINER 4-->
-                    
-                <!-- PHOTO-CONTAINER 5-->
-                    <div>
-                        <div>
-                            <img src="Images/Thumb/thumbnail_5.jpeg" alt="Sally up close" width="300">
-                            <div>
-                                <h3>Click to Enlarge</h3>
-                                <p>We have had Sally for a little over a year and we have MANY pictures of her!</p>
-                            </div>    
+                        <!-- END PHOTO CONTAINER 4 -->
+
+                        <!-- PHOTO CONTAINER 5 -->
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="../Images/Thumb/thumbnail_5.jpeg" alt="Sally up close">
+                            <div class="photo-overlay">
+                                <h3 class="white-head">Click to Enlarge</h3>
+                                <p>We have several pictures of Sally to share, check them out!</p>
+                            </div>
                         </div>
                     </div>
-                <!-- END PHOTO-CONTAINER 5-->
-                    
-                <!-- PHOTO-CONTAINER 6-->
-                    <div>
-                        <div>
-                            <img src="Images/Thumb/thumbnail_6.jpeg" alt="Sally head on couch cushion" width="300">
-                            <div>
-                                <h3>Click to Enlarge</h3>
-                                <p>We have had Sally for a little over a year and we have MANY pictures of her!</p>
-                            </div>    
+                        <!-- END PHOTO CONTAINER 5 -->
+
+                        <!-- PHOTO CONTAINER 6 -->
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="../Images/Thumb/thumbnail_6.jpeg" alt="Sally resting head">
+                            <div class="photo-overlay">
+                                <h3 class="white-head">Click to Enlarge</h3>
+                                <p>We have several pictures of Sally to share, check them out!</p>
+                            </div>
                         </div>
                     </div>
-                <!-- END PHOTO-CONTAINER 6-->
-                    
-                <!-- PHOTO-CONTAINER 7-->
-                    <div>
-                        <div>
-                            <img src="Images/Thumb/thumbnail_7.jpeg" alt="Curious Sally" width="300">
-                            <div>
-                                <h3>Click to Enlarge</h3>
-                                <p>We have had Sally for a little over a year and we have MANY pictures of her!</p>
-                            </div>    
+                        <!-- END PHOTO CONTAINER 6 -->
+
+                        <!-- PHOTO CONTAINER 7 -->
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="../Images/Thumb/thumbnail_7.jpeg" alt="Sally curious">
+                            <div class="photo-overlay">
+                                <h3 class="white-head">Click to Enlarge</h3>
+                                <p>We have several pictures of Sally to share, check them out!</p>
+                            </div>
                         </div>
                     </div>
-                <!-- END PHOTO-CONTAINER 7-->
-                
-                <!-- PHOTO-CONTAINER 8-->
-                    <div>
-                        <div>
-                            <img src="Images/Thumb/thumbnail_8.jpeg" alt="Sally on the side of the course" width="300">
-                            <div>
-                                <h3>Click to Enlarge</h3>
-                                <p>We have had Sally for a little over a year and we have MANY pictures of her!</p>
-                            </div>    
+                        <!-- END PHOTO CONTAINER 7 -->
+
+                        <!-- PHOTO CONTAINER 8 -->
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="../Images/Thumb/thumbnail_8.jpeg" alt="Sally resting on couch cushion">
+                            <div class="photo-overlay">
+                                <h3 class="white-head">Click to Enlarge</h3>
+                                <p>We have several pictures of Sally to share, check them out!</p>
+                            </div>
                         </div>
                     </div>
-                <!-- END PHOTO-CONTAINER 8-->
-                    
-                <!-- PHOTO-CONTAINER 9-->
-                    <div>
-                        <div>
-                            <img src="Images/Thumb/thumbnail_9.jpeg" alt="Sally doing some yoga" width="300">
-                            <div>
-                                <h3>Click to Enlarge</h3>
-                                <p>We have had Sally for a little over a year and we have MANY pictures of her!</p>
-                            </div>    
+                        <!-- END PHOTO CONTAINER 8 -->
+
+                        <!-- PHOTO CONTAINER 9 -->
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="../Images/Thumb/thumbnail_9.jpeg" alt="Sally yoga">
+                            <div class="photo-overlay">
+                                <h3 class="white-head">Click to Enlarge</h3>
+                                <p>We have several pictures of Sally to share, check them out!</p>
+                            </div>
                         </div>
                     </div>
-                <!-- END PHOTO-CONTAINER 9-->
-                    
+                        <!-- END PHOTO CONTAINER 9 -->
+
                 </div>
             </div>
         </section>
         <!-- END GALLERY -->
-        
-        <!-- NOTIFICATIONS -->
-        <section>
-            <div id="notifications">
-                <div>
-                    <h1>Notifications</h1>
+
+        <!-- SUBSCRIBE -->
+        <section id="subscribe">
+            <div class="container">
+                <div class="heading-padding">
+                    <h1 class="heading-padding">Subscribe</h1>
                     <div>
-                        <h2><span>Sally is a new member of the family and we have new pictures all the time!</span>
-                        <br>Sign up for notifications!
-                        </h2>
-                        <p>
-                            Please provide us with your basic contact information.
-                        </p>
-                        <div>
-                            <form action="" method="post">
-                                <input class="notifications" type="text" value="First Name">
-                                <input class="notifications" type="text" value="Last Name">
-                                <input class="notifications" type="text" value="Email Address">
-                                <input class="notifications" type="text" value="Phone Number">
-                                <div>
-                                    <label class="terms">Terms and Conditions</label>
-                                </div>
-                                <div>
-                                    <input type="submit" value="Submit">
-                                </div>
-                            </form>
-                        </div>
+                        <h2><span>Join us on Sally's adventures!</span>
+                        <br>Lorem Ipsum
+                    </h2>
+                    <p class="subscribe-text">Please provide us with your information so we can add you to our subscriber list.
+                    </p>
+                    <div class="form-subscribe">
+                        <form action="" method="post">
+                            <input class="subscribe" type="text" value="" placeholder="First Name">
+                            <input class="subscribe" type="text" value="" placeholder="Last Name">
+                            <input class="subscribe" type="text" value="" placeholder="Email Address">
+                            <div class="form-spacer">
+                                <label class="terms">
+                                    Terms and Conditions
+                                </label>
+                            </div>
+                            <div class="submit">
+                                <input type="submit" value="Submit">
+                            </div>
+                        </form>
+                    </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- END NOTIFICATIONS -->
-        
+        <!-- END SUBSCRIBE -->
+
         <!-- FOOTER -->
-        <div>
-            www.Sally.com &nbsp;|&nbsp; &copy; 2021
+        <div id="footer">
+            www.saladventures.sally&nbsp;|&nbsp;&copy; 2021
         </div>
-        <!-- END FOOTER -->
-    
     </body>
 </html>    
