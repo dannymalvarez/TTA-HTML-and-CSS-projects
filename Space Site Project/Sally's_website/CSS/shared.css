@@ -142,7 +142,7 @@ section {
     left: 0: */
     /* position: absolute; */
     /* To the top edge of the screen */
-    width: 0%;
+    width: 102%;
     position: fixed;
     z-index: 100;
     /* background-color: rgba(255, 255, 255, 0.5);*/
