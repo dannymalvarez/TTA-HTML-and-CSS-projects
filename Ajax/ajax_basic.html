@@ -14,22 +14,22 @@
 		<script type="text/javascript">
 			
             // Step 1: setup the xml http request object
-            var ajax = new XMLHttpRequest();
+            var ajax = new XMLHttpRequest(); //Declaring a variable to house the http request
 
             // Step 2: prepare the open ajax request
-            ajax.open('GET', 'content.html');
+            ajax.open('GET', 'content.html'); // using the open method to the ajax variable with the parameters of GET and the desired file
 
             // Step 3: define the ajax response callback method
-            ajax.onreadystatechange = function() {
-                if (ajax.readyState == 4) {
-                    document.getElementById("content").innerHTML = ajax.responseText;
+            ajax.onreadystatechange = function() { //function set to the ajax variable with the onreadystatechange method
+                if (ajax.readyState == 4) { //if the ready state is 4 for the ajax variable
+                    document.getElementById("content").innerHTML = ajax.responseText; // then print the responsetext of the desired file at the id in this html
                 }
             }
 
             // Step 4: send the ajax request for data
-            function getContent() {
+            function getContent() { // this is how we get the content sent back to us from the server
                 ajax.send();
-                document.getElementById("btn_content").style.display = "none";
+                document.getElementById("btn_content").style.display = "none"; //makes the button disapear once clicked
             }
 
             
